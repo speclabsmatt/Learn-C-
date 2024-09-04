@@ -1,6 +1,6 @@
 #include <iostream>
 
-void insertion_sort(int arr[], int n)
+void insertionSort(int arr[], int n)
 {
   for (int i = 1; i < n; i++)
   {
@@ -16,7 +16,7 @@ void insertion_sort(int arr[], int n)
   }
 }
 
-void reverse_insertion_sort(int arr[], int n)
+void reverseInsertionSort(int arr[], int n)
 {
   for (int i = 1; i < n; i++)
   {
@@ -43,14 +43,14 @@ int main()
     std::cout << a[i] << " " << std::endl;
   }
 
-  insertion_sort(a, n);
+  insertionSort(a, n);
 
   for (int i = 0; i < n; i++)
   {
     std::cout << a[i] << " " << std::endl;
   }
 
-  reverse_insertion_sort(a, n);
+  reverseInsertionSort(a, n);
 
   for (int i = 0; i < n; i++)
   {
